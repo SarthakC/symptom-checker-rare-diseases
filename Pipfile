@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+spacy = "*"
+scispacy = "*"
+en-core-sci-lg = {file = "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_lg-0.2.4.tar.gz"}
+pymongo = "*"
+python-dotenv = "*"
+dnspython = "*"
+
+[requires]
+python_version = "3.7"
